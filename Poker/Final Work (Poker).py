@@ -1,10 +1,7 @@
-# Author: Takahiro Namatame
 # Date: 2021.12.16
 
 
-
 # import
-
 import random
 import numpy as np
 import Cards as Ca
@@ -13,33 +10,22 @@ import tkinter as tk
 
 
 '''
-
   Memo about cards definition
-  
   Prepare  0-52  Number
-
   Use  zip()  to make pare of  mark and number??
-
    0-12  ♡
   13-25  ♦
   26-38  ♣
   39-51  ♠         (mod 13) + 1    is the Card's Number
-
-
+  
   Number (mod 13)+1
 
     n%13==12:
-
          'K'
-
      n%13==11:
-
          'Q'
-
      n%13==10:
-
          'J'
-
 
         その他
     
@@ -47,24 +33,17 @@ import tkinter as tk
 
 
     マーク
-
      n//13==0:
-
      　'♡' 
 
      n//13==1:
-
          '♦' 
 
      n//13==2:
-
          '♣' 
 
-
         その他
-
         S= '♠' 
-
   
 '''
 
@@ -549,15 +528,3 @@ window.mainloop()
 
 
 '''
-
-
-
-
-
-
-
-
-
-
-
-
