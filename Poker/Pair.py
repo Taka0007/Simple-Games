@@ -1,10 +1,4 @@
-
-
-
-
-
 '''
-
     Royal Straight Flush (ok
     Straight Flush  (ok
     For of a Kind  (ok
@@ -15,12 +9,9 @@
     Two Pair  (ok
     One Pair  (ok
     No Pair  (ok
-
-
     URL: https://bright777.com/texasholdem2
-
-
 '''
+
 
 '''
 Number (mod 13)+1
@@ -150,28 +141,3 @@ def Pair(card):
 
 
     return Hand
-
-
-
-
-
-
-    
-
-
-
-
-    
-
-
-    
-
-
-
-    
-
-
-    
-
-
-    
